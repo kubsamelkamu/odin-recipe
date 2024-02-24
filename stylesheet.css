@@ -1,7 +1,7 @@
 body{
     margin: 0px;
 }
-ul{
+#nav-bar{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,6 +24,31 @@ li a:hover{
 
 #recipe-title{
     display: block;
+    margin: 0;
     width:auto;
-    background-color: #726e6e;
+    background-color: #bcb7b7;
+    text-align: center;
+}
+.ingredient{
+    background-color: white;
+    display: block;
+
+}
+.preparation{
+    margin: 0;
+    display: block;
+    width:auto;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+#ingredient{
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+    overflow: hidden;
+    background-color: #ded7d7;
+
+}
+#ingredient li{
+    float: none;
 }
